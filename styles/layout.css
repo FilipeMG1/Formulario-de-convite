@@ -1,0 +1,70 @@
+#invite {
+  display: grid;
+  grid-template-columns: 25rem 51.25rem;
+
+  max-width: 80rem;
+  gap: 1.25rem;
+
+  overflow: hidden;
+  margin-block: 1.25rem;
+  margin-inline: auto;
+}
+
+aside {
+  size: 400px 728px;
+  & .aside-container {
+    margin: 2rem;
+  }
+
+  #bg-img {
+    overflow: hidden;
+    height: 96vh;
+
+    background-image: url(../assets/img/Background.png);
+    background-size: cover;
+    background-position: center;
+
+  
+    & p {
+      font: var(--body-lg);
+      color: var(--text-body)
+    }
+  }
+}
+
+main {
+  overflow: auto;
+
+  & .main-container {
+    height: 100vh;
+  }
+  
+  #form {
+    background-color: var(--shape-body);
+    padding-block: 80px;
+    padding-inline: 130px;
+
+    & h2 {
+      margin-bottom: 2.5rem;
+    }
+  }
+
+  .fields {
+    margin-bottom: 48px;
+  }
+
+  .title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+
+    svg {
+      max-width: 1.5rem;
+      fill: var(--input-placeholder);
+    }
+
+    & h3 {
+      margin-left: 0.75rem;
+    }
+  }
+}
