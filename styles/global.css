@@ -49,6 +49,10 @@
 body {
   background-color: var(--shape-background);
   overflow: hidden;
+
+ width: 80rem;
+ height: 48rem;
+ margin-inline: auto;
 }
 
 h1 {
@@ -56,16 +60,9 @@ h1 {
   color: var(--pink);
 }
 
-h2, h3 {
-  color: var(--text-heading);
-}
-
 h2 {
+  color: var(--text-heading);
   font: var(--heading-md);
-}
-
-h3 {
-  font: var(--heading-sm);
 }
 
 img {
@@ -74,6 +71,5 @@ img {
 }
 
 .border {
-  border-radius: 1.33333333rem;
+  border-radius: 1.33rem;
 }
-

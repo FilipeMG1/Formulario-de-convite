@@ -33,8 +33,11 @@ aside {
 }
 
 main {
+  size: 820px 1981px;
   overflow: auto;
+  /* height: 100vh; */
 
+  
   & .main-container {
     height: 100vh;
   }
@@ -49,22 +52,9 @@ main {
     }
   }
 
-  .fields {
-    margin-bottom: 48px;
-  }
-
   .title {
     display: flex;
     align-items: center;
-    margin-bottom: 50px;
-
-    svg {
-      max-width: 1.5rem;
-      fill: var(--input-placeholder);
-    }
-
-    & h3 {
-      margin-left: 0.75rem;
-    }
+    margin-bottom: 1.5rem;
   }
 }
