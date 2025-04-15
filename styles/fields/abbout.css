@@ -1,0 +1,70 @@
+fieldset {
+  & input, textarea {
+    /* width: 100%; */
+    border-radius: 8px;
+    border: solid 1px var(--input-stroke);
+    background-color: var(--input-base);
+    
+    font: var(--body-lg);
+    color: var(--input-placeholder);
+  }
+
+  & input::placeholder, textarea::placeholder {
+    color: var(--input-placeholder);
+  }
+
+  textarea {
+    padding-inline: 1rem 16rem;
+    padding-block: 1rem 6.125rem;
+
+    width: 100%;
+  }
+}
+
+legend {
+  margin-left: 0.75rem;
+
+  font: var(--heading-sm);
+  color: var(--text-heading);
+}
+
+svg {
+  max-width: 1.5rem;
+  fill: var(--input-placeholder);
+}
+
+label {
+  font: var(--body-sm);
+  color: var(--text-body);
+
+  display: block;
+  margin-bottom: 0.75rem;
+}
+
+input {
+  padding: 13px;
+}
+
+#selctor {
+  font: var(--body-sm);
+  
+  & svg {
+    max-width: 1rem;
+  }
+
+  & div {
+    border: solid 1px red;
+    border-radius: 0.5rem;
+
+    padding: 0.25rem;
+    gap: 0.25rem;
+
+    display: flex;
+    align-items: center;
+
+    & div {
+      border: solid 1px blue;
+      border-radius: 0.25rem;
+    }
+  }
+}
