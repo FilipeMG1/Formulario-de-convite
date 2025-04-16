@@ -5,7 +5,7 @@ fieldset {
     border: solid 1px var(--input-stroke);
     background-color: var(--input-base);
     
-    font: var(--body-lg);
+    font: var(--body-md);
     color: var(--input-placeholder);
   }
 
@@ -34,7 +34,7 @@ svg {
 }
 
 label {
-  font: var(--body-sm);
+  font: var(--body-xs);
   color: var(--text-body);
 
   display: block;
@@ -46,7 +46,7 @@ input {
 }
 
 #selctor {
-  font: var(--body-sm);
+  font: var(--body-xs);
   
   & svg {
     max-width: 1rem;

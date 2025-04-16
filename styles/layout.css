@@ -18,7 +18,7 @@ aside {
 
   #bg-img {
     overflow: hidden;
-    height: 96vh;
+    height: 45.5rem;
 
     background-image: url(../assets/img/Background.png);
     background-size: cover;
@@ -26,17 +26,16 @@ aside {
 
   
     & p {
-      font: var(--body-lg);
+      font: var(--body-md);
       color: var(--text-body)
     }
   }
 }
 
 main {
-  size: 820px 1981px;
   overflow: auto;
+  size: 820px 1981px;
   /* height: 100vh; */
-
   
   & .main-container {
     height: 100vh;
@@ -56,5 +55,42 @@ main {
     display: flex;
     align-items: center;
     margin-bottom: 1.5rem;
+  }
+
+  .fields {
+    & div {
+      display: flex;
+      gap: 0.75rem;
+    }
+  }
+
+  #personalization {
+    font: var(--body-sm);
+    color: var(--text-heading);
+
+    #color {
+      margin-bottom: 1.75rem;
+    }
+
+    #themes {
+      label {
+        margin-bottom: 1rem;
+      }
+
+      section {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 0.5rem;
+
+        div {
+          img {
+            width: 126px;
+            height: 64px;
+
+            border-radius: 4px;
+          } 
+        }
+      }
+    }
   }
 }

@@ -13,9 +13,9 @@
   --heading-sm: 700 1.125rem var(--font-heading);
 
   --font-body: "Open Sans", sans-serif;
-  --body-lg: 500 1rem var(--font-body);
-  --body-md: 500 0.85rem var(--font-body);
-  --body-sm: 500 0.75rem var(--font-body);
+  --body-md: 500 1rem var(--font-body);
+  --body-sm: 500 0.875rem var(--font-body);
+  --body-xs: 500 0.75rem var(--font-body);
 
   --brand-light: #59B2FF;
   --brand-mid: #3487CF;

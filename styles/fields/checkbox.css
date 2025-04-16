@@ -1,81 +1,101 @@
-#personalization {
-  .fields {
-    & div {
-      display: flex;
-      gap: 0.75rem;
-    }
-  }
-  
-  input[type="checkbox"] {
-    all: unset;
-    opacity: 0;
-  }
-  
-  .checkbox-color {
-    background-color: var(--shape-button);
-    width: 2.5rem;
-    height: 2.5rem;
-  
+input[type="checkbox"] {
+  /* opacity: 0; */
+}
+
+.checkbox-color {
+  background-color: var(--shape-button);
+  margin-top: 0.25rem;
+  width: 2.5rem;
+  height: 2.5rem;
+
+  border-radius: 62.43rem;
+
+  div {
+    width: 28px;
+    height: 28px;
     border-radius: 62.43rem;
-  
-    div {
-      width: 28px;
-      height: 28px;
-      border-radius: 62.43rem;
-      align-self: center;
-      margin: auto;
-  
-      &.checkbox-brand-light {
-        background-color: var(--brand-light);
-      }
-  
-      &.checkbox-navy {
-        background-color: var(--navy);
-      }
-    
-      &.checkbox-purple {
-        background-color: var(--purple);
-      }
-    
-      &.checkbox-fuschia {
-        background-color: var(--fuschia);
-      }
-    
-      &.checkbox-pink {
-        background-color: var(--pink);
-      }
-    
-      &.checkbox-danger {
-        background-color: var(--danger);
-      }
-    
-      &.checkbox-orange {
-        background-color: var(--orange);
-      }
-    
-      &.checkbox-yellow {
-        background-color: var(--yellow);
-      }
-    
-      &.checkbox-lime {
-        background-color: var(--lime);
-      }
-    
-      &.checkbox-green {
-        background-color: var(--green);
-      }
-    
-      &.checkbox-cyan {
-        background-color: var(--cyan);
-      }
+    align-self: center;
+    margin: auto;
+
+    &.checkbox-brand-light {
+      background-color: var(--brand-light);
+    }
+
+    &.checkbox-navy {
+      background-color: var(--navy);
     }
   
-    &:hover, &:focus-within {
-      background-color: var(--shape-hover);
+    &.checkbox-purple {
+      background-color: var(--purple);
     }
-    
-    &:has(:checked) {
-      border: solid 2px var(--brand-light);
+  
+    &.checkbox-fuschia {
+      background-color: var(--fuschia);
     }
+  
+    &.checkbox-pink {
+      background-color: var(--pink);
+    }
+  
+    &.checkbox-danger {
+      background-color: var(--danger);
+    }
+  
+    &.checkbox-orange {
+      background-color: var(--orange);
+    }
+  
+    &.checkbox-yellow {
+      background-color: var(--yellow);
+    }
+  
+    &.checkbox-lime {
+      background-color: var(--lime);
+    }
+  
+    &.checkbox-green {
+      background-color: var(--green);
+    }
+  
+    &.checkbox-cyan {
+      background-color: var(--cyan);
+    }
+  }
+
+  &:hover, &:focus-within {
+    background-color: var(--shape-hover);
+  }
+  
+  &:has(:checked) {
+    border: solid 2px var(--brand-light);
+  }
+}
+
+.checkbox-themes {
+  border: solid 1px var(--input-stroke);
+  background-color: var(--shape-button);
+  border-radius: 8px;
+
+  width: 134px;
+  height: 103px;
+
+  padding-inline: 4px;
+  padding-top: 4px;
+
+  text-align: center;
+
+  input {
+    position: relative;
+    bottom: 90px;
+    /* width: 134px; */
+    height: 100px;
+  }
+  
+  &:hover, &:focus-within {
+    background-color: var(--shape-hover);
+  }
+
+  &:has(:checked) {
+    outline: solid 2px var(--brand-light);
   }
 }
