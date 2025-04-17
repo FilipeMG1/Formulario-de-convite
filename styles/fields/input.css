@@ -1,5 +1,17 @@
+#abbout {
+  input {
+    width: 100%;
+  }
+}
+
 input {
-  width: 100%;
+  padding: 13px;
+  /* width: 100%; */
+}
+
+input, textarea, select {
+  appearance: none;
+  /* width: 100%; */
 }
   
 input[type="datetime-local"] {
@@ -9,4 +21,8 @@ input[type="datetime-local"] {
   &::-webkit-calendar-picker-indicator {
     opacity: 0;
   }
+}
+
+input[type="checkbox"] {
+  /* opacity: 0; */
 }

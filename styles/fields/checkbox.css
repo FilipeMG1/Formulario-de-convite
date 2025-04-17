@@ -1,5 +1,17 @@
-input[type="checkbox"] {
-  /* opacity: 0; */
+.checkbox-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: .5rem;
+  position: relative;
+
+  div {
+    img {
+      width: 126px;
+      height: 64px;
+
+      border-radius: 4px;
+    } 
+  }
 }
 
 .checkbox-color {
@@ -76,19 +88,21 @@ input[type="checkbox"] {
   background-color: var(--shape-button);
   border-radius: 8px;
 
-  width: 134px;
-  height: 103px;
+  display: grid;
+  position: relative;
+  justify-items: center;
 
   padding-inline: 4px;
   padding-top: 4px;
 
-  text-align: center;
+  label {
+    margin-block: 8px;
+  }
 
-  input {
-    position: relative;
-    bottom: 90px;
-    /* width: 134px; */
-    height: 100px;
+  & input, & input:focus, & input:hover {
+    all: unset;
+    position: absolute;
+    inset: 0;
   }
   
   &:hover, &:focus-within {

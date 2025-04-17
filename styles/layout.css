@@ -8,6 +8,14 @@
   overflow: hidden;
   margin-block: 1.25rem;
   margin-inline: auto;
+
+  .title {
+    font: var(--body-sm);
+    color: var(--text-body);
+  
+    display: block;
+    margin-bottom: 0.75rem;
+  }
 }
 
 aside {
@@ -51,7 +59,7 @@ main {
     }
   }
 
-  .title {
+  .section {
     display: flex;
     align-items: center;
     margin-bottom: 1.5rem;
@@ -70,27 +78,6 @@ main {
 
     #color {
       margin-bottom: 1.75rem;
-    }
-
-    #themes {
-      label {
-        margin-bottom: 1rem;
-      }
-
-      section {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 0.5rem;
-
-        div {
-          img {
-            width: 126px;
-            height: 64px;
-
-            border-radius: 4px;
-          } 
-        }
-      }
     }
   }
 }

@@ -1,6 +1,5 @@
 fieldset {
   & input, textarea {
-    /* width: 100%; */
     border-radius: 8px;
     border: solid 1px var(--input-stroke);
     background-color: var(--input-base);
@@ -31,18 +30,6 @@ legend {
 svg {
   max-width: 1.5rem;
   fill: var(--input-placeholder);
-}
-
-label {
-  font: var(--body-xs);
-  color: var(--text-body);
-
-  display: block;
-  margin-bottom: 0.75rem;
-}
-
-input {
-  padding: 13px;
 }
 
 #selctor {
