@@ -1,0 +1,16 @@
+.checkbox-color {
+  position: relative;
+  justify-items: center;
+
+  padding: auto;
+
+  & input, & input:focus, & input:hover {
+    all: unset;
+    position: absolute;
+    inset: 0;
+  }
+  
+  &:hover, &:focus-within {
+    background-color: var(--shape-hover);
+  }
+}

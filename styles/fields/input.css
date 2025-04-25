@@ -5,7 +5,7 @@
 }
 
 input {
-  padding: 13px;
+  padding: .8125rem;
   /* width: 100%; */
 }
 
@@ -23,6 +23,6 @@ input[type="datetime-local"] {
   }
 }
 
-input[type="checkbox"] {
+input[type="checkbox"], input[type="radio"] {
   /* opacity: 0; */
 }

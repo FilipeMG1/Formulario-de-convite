@@ -33,7 +33,7 @@ aside {
     background-position: center;
 
   
-    & p {
+    p {
       font: var(--body-md);
       color: var(--text-body)
     }
@@ -57,20 +57,30 @@ main {
     & h2 {
       margin-bottom: 2.5rem;
     }
-  }
 
-  .section {
-    display: flex;
-    align-items: center;
-    margin-bottom: 1.5rem;
-  }
-
-  .fields {
-    & div {
+    .section {
       display: flex;
-      gap: 0.75rem;
+      align-items: center;
+      margin-bottom: 1.5rem;
+    }
+  
+    .fields {
+      & div {
+        display: flex;
+        gap: 0.75rem;
+      }
+    }
+
+    #style-and-img {
+      display: flex;
+
+      input[type="file"] {
+      all: unset;
+        
+      }
     }
   }
+  
 
   #personalization {
     font: var(--body-sm);
