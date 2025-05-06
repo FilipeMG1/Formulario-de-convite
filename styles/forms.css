@@ -7,15 +7,22 @@ fieldset {
 }
 
 form {
-  width: 35rem;
+  /* width: 35rem; */
 }
 
-.size-100 {
+/* .size-100 {
   margin-bottom: 1rem;
-}
+} */
 
-.flex {
+.grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
+}
+
+#end-form {
+  margin-top: 2.5rem;
+
+  display: flex;
+  flex-direction: column;
 }
