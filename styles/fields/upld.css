@@ -1,0 +1,6 @@
+#img-upld {
+  input[type="file"] {
+    all: unset;
+  }
+
+}

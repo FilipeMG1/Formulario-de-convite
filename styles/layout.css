@@ -85,15 +85,6 @@ main {
       }
     }
 
-    #style-and-img {
-      display: flex;
-
-      input[type="file"] {
-      all: unset;
-        
-      }
-    }
-
     #contact {
       .size-100 {
         margin-bottom: 1.5rem;
@@ -109,5 +100,30 @@ main {
     #color {
       margin-bottom: 1.75rem;
     }
+
+    #style-and-img {
+      display: flex;
+      gap: 1rem;
+      margin-top: 1.75rem;
+
+      #slide-wrapper {
+        display: flex;
+      }
+
+      #img-upld {
+        height: 79px;
+      }
+
+      #style {
+        height: 79px;
+      }
+    }
   }
+}
+
+#line-separation {
+  /* margin-block: 24px; */
+  margin-block: 48px 40px;
+
+  border: solid 1px var(--input-stroke);
 }

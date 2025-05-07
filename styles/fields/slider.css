@@ -1,0 +1,32 @@
+#slide-wrapper {
+  display: flex;
+
+  #slide {
+    background-image: url(../../assets/icons/switch-dark.svg);
+    width: 64px;
+    height: 32px;
+    transition: 0.7s;
+
+    input {
+      height: inherit;
+    }
+  
+    &:has(:checked) {
+      background-image: url(../../assets/icons/switch-blue.svg);
+      transition: 0.7s;
+    }
+  }
+
+  &::after {
+    content: "Escuro";
+    align-self: center;
+    margin-inline: 12px 56px;
+    width: 44px;
+    transition: 0.7s;
+  }
+
+  &:has(:checked)&::after {
+    content: "Claro";
+    transition: 0.7s;
+  }
+}
