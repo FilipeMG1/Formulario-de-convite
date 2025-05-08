@@ -113,3 +113,31 @@
     outline: solid 2px var(--brand-light);
   }
 }
+
+.checkbox-terms {
+  gap: 0.75rem;
+  display: flex;
+  padding-block: 0.25rem;
+  align-self: center;
+
+  & + .checkbox-terms {
+    margin-top: 0.25rem;
+  }
+
+  & input {
+    all: unset;
+    inset: 0;
+    height: 1.25rem;
+    width: 1.25rem;
+  }
+  
+  .box {
+    width: 1.25rem;
+    height: 1.25rem;
+    background-image: url(../../assets/icons/checkbox-uncheck.svg);
+  }
+
+  .box:has(:checked) {
+    background-image: url(../../assets/icons/checkbox-check.svg);
+  }
+}

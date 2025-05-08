@@ -15,6 +15,12 @@
   
     display: block;
     margin-bottom: 0.75rem;
+
+    a {
+      color: var(--brand-light);
+      text-decoration: underline;
+      font-weight: bold;
+    }
   }
 }
 

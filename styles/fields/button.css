@@ -1,0 +1,32 @@
+.button-wrapper {
+  display: flex;
+  justify-content: flex-end;
+
+  
+  div {
+    margin-top: 48px;
+    max-height: 48px;
+
+    display: flex;
+    padding-inline: 20px;
+    padding-block: 13px;
+    background-color: var(--brand-dark);
+    border-radius: 8px;
+
+    font: var(--body-md);
+    color: var(--text-heading);
+
+    align-items: center;
+
+    & input {
+      all: unset;
+      inset: 0;
+    }
+
+    svg {
+      fill: var(--text-heading);
+      margin-right: 12px;
+    }
+
+  }
+}
