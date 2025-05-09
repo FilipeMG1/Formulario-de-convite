@@ -1,6 +1,47 @@
-#img-upld {
+#dropzone {
+  width: 368px;
+  height: 79px;
+  cursor: pointer;
+
+  /* display: block; */
+  position: relative;
+
   input[type="file"] {
-    all: unset;
+    position: relative;
+    z-index: 1;
+    top: 10px;
+    height: 40px;
+  }
+  
+  .file-wrapper {
+    position: absolute;
+    z-index: 2;
+    padding-inline: 12px;
+    gap: 8px;
+    width: 120px;
+    height: 40px;
+
+    align-items: center;
+
+    display: flex;
+
+    background-color: var(--shape-button);
+    border-radius: 8px;
+
+    .file-img {
+        width: 1rem;
+        height: 1rem;
+        
+      svg {
+        fill: var(--brand-light);
+        width: 1rem;
+        height: 1rem;
+      }
+    }
+
+    &:hover {
+      background-color: var(--shape-hover);
+    }
   }
 
 }

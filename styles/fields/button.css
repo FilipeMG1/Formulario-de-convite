@@ -1,7 +1,6 @@
 .button-wrapper {
   display: flex;
   justify-content: flex-end;
-
   
   div {
     margin-top: 48px;
@@ -17,6 +16,12 @@
     color: var(--text-heading);
 
     align-items: center;
+
+    cursor: pointer;
+
+    label {
+      cursor: pointer;
+    }
 
     & input {
       all: unset;
