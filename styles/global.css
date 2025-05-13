@@ -48,8 +48,7 @@
 
 body {
   background-color: var(--shape-background);
-  /* overflow: hidden; TROCAR PELO DE BAIXO QUANDO ACABAR*/
-  overflow: auto; 
+  overflow: hidden;
 
  width: 80rem;
  height: 48rem;

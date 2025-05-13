@@ -6,12 +6,14 @@
 
 input {
   padding: .8125rem;
-  /* width: 100%; */
 }
 
 input, textarea, select {
   appearance: none;
-  /* width: 100%; */
+  
+  &:focus {
+      outline: solid 1px var(--brand-light);
+    }
 }
   
 input[type="datetime-local"] {
@@ -27,10 +29,10 @@ input[type="checkbox"], input[type="button"], input[type="radio"] {
   opacity: 0;
 }
 
-/* input[type="file"] {
-  opacity: 0;
-} */
-
 input[type="file"] {
   all: unset;
+}
+
+textarea {
+  resize: none;
 }

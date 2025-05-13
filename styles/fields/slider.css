@@ -30,3 +30,54 @@
     transition: 0.7s;
   }
 }
+
+#slide-selector {
+  font: var(--body-sm);
+  color: var(--text-body);
+
+  #selector-wrapper {
+    border: solid 1px var(--input-stroke);
+    background-color: var(--input-base);
+    border-radius: 0.5rem;
+
+    padding: 0.25rem;
+    gap: 0.25rem;
+
+    display: flex;
+
+    input {
+      display: none;
+      width: 1px;
+    }
+      
+    input:checked ~ .selector-option {
+      background-color: var(--input-stroke);
+      
+      svg {
+        fill: var(--brand-light);
+      }
+    }
+    
+    .selector-option {
+      width: 130px;
+      height: 2.5rem;
+      border-radius: 4px;
+
+      display: flex;
+
+      align-items: center;
+
+      gap: 8px;
+
+      svg {
+        width: 16px;
+        height: 16px;
+        margin-left: auto;
+      }
+
+      span {
+        margin-right: auto;
+      }
+    }
+  }  
+}

@@ -1,16 +1,15 @@
 #dropzone {
   width: 368px;
-  height: 79px;
+  height: 4.9375rem;
   cursor: pointer;
 
-  /* display: block; */
   position: relative;
 
   input[type="file"] {
     position: relative;
     z-index: 1;
     top: 10px;
-    height: 40px;
+    height: 2.5rem;
   }
   
   .file-wrapper {
@@ -19,7 +18,7 @@
     padding-inline: 12px;
     gap: 8px;
     width: 120px;
-    height: 40px;
+    height: 2.5rem;
 
     align-items: center;
 

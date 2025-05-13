@@ -25,21 +25,18 @@
 }
 
 aside {
-  size: 400px 728px;
-  /* height: 900px; */
+  size: 25rem 45.5rem;
   & .aside-container {
     margin: 2rem;
   }
 
   #bg-img {
     overflow: hidden;
-    /* height: 45.5rem; */
     height: 57.5rem;
 
     background-image: url(../assets/img/Background.png);
     background-size: cover;
     background-position: center;
-
   
     p {
       font: var(--body-md);
@@ -50,18 +47,9 @@ aside {
 
 main {
   overflow: auto;
-  /* size: 820px 1981px; */
-  /* height: 94vh; */
-  /* height: 100vh; */
-  width: 820px;
+  width: 51.25rem;
   height: 57.5rem;
-  
-  .main-container {
-    /* overflow: auto; */
-    /* height: 100vh; */
-    /* width: 820px; */
-    /* height: 56.25rem; */
-  }
+
   
   #form {
     background-color: var(--shape-body);
@@ -117,19 +105,17 @@ main {
       }
 
       #img-upld {
-        height: 79px;
+        height: 4.9375rem;
       }
 
       #style {
-        height: 79px;
+        height: 4.9375rem;
       }
     }
   }
 }
 
 #line-separation {
-  /* margin-block: 24px; */
-  margin-block: 48px 40px;
-
+  margin-block: 3rem 2.5rem;
   border: solid 1px var(--input-stroke);
 }

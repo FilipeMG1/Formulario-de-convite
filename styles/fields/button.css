@@ -3,8 +3,8 @@
   justify-content: flex-end;
   
   div {
-    margin-top: 48px;
-    max-height: 48px;
+    margin-top: 3rem;
+    max-height: 3rem;
 
     display: flex;
     padding-inline: 20px;
@@ -33,5 +33,9 @@
       margin-right: 12px;
     }
 
-  }
+    &:hover {
+      background-color: var(--brand-mid);
+      transition: .5s;
+    }
+  }  
 }

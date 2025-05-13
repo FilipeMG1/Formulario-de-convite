@@ -31,27 +31,3 @@ svg {
   max-width: 1.5rem;
   fill: var(--input-placeholder);
 }
-
-#selector {
-  font: var(--body-xs);
-  
-  & svg {
-    max-width: 1rem;
-  }
-
-  & div {
-    border: solid 1px red;
-    border-radius: 0.5rem;
-
-    padding: 0.25rem;
-    gap: 0.25rem;
-
-    display: flex;
-    align-items: center;
-
-    & div {
-      border: solid 1px blue;
-      border-radius: 0.25rem;
-    }
-  }
-}
